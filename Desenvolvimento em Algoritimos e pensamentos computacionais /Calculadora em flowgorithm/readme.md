@@ -2,7 +2,6 @@
 
 [Calculadora em Flowgorithm](calculadora.fprg)
 
-<subtitle> Calculadora em Flowgorithm </subtitle>
 
 <p>Calculadora desenvolvida no Flowgorithm como uma atividade prática de lógica de programação. O projeto possui 20 operações matemáticas diferentes, utilizando variáveis, operadores, estruturas condicionais e entrada de dados do usuário.</p>
 
