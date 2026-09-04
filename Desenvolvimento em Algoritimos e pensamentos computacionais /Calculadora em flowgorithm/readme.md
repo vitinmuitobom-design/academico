@@ -12,4 +12,6 @@
 
 <h3>TECNOLOGIA USADA</h3>
 
-<p> Na aula a professora mandou fazer um diagrama no flowgorithm , para nos alunos entendemos a logica em C</p>
+<subtitle> Flowgorithm </subtitle>
+
+<p> Durante a aula, a professora solicitou a criação de um diagrama no Flowgorithm para que pudéssemos praticar e compreender melhor a lógica de programação. A atividade serviu como uma introdução aos conceitos que serão utilizados na linguagem C.</p>
