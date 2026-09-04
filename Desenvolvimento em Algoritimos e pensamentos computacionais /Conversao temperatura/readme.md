@@ -8,6 +8,8 @@
 
 <h2> Obejtivo</h2>
 
+<p>O objetivo deste projeto é desenvolver um programa em linguagem C capaz de realizar a conversão de temperaturas entre diferentes escalas, utilizando os conceitos básicos de programação aprendidos durante os estudos.</p>
+
 
 <h3>TECNOLOGIA USADA</h3>
 
