@@ -22,7 +22,12 @@
 - Organização básica de um programa em C
 </p>
 
-<h4>TECNOLOGIA USADA</h4>
+
+  <h4>Conclusao</h4>
+
+  <p> Este projeto foi uma forma de praticar meus conhecimentos em C e entender melhor como funciona a linguagem. Ainda tenho algumas dificuldades com a sintaxe, mas estou evoluindo aos poucos e pretendo continuar melhorando meus códigos.</p>
+
+  <h5>TECNOLOGIA USADA</h5>
 
 
   <img 
@@ -32,8 +37,3 @@
     width="30"
     style="padding-right: 10px;"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-
-
-  <h2>Conclusao</h2>
-
-  <p> Este projeto foi uma forma de praticar meus conhecimentos em C e entender melhor como funciona a linguagem. Ainda tenho algumas dificuldades com a sintaxe, mas estou evoluindo aos poucos e pretendo continuar melhorando meus códigos.</p>
