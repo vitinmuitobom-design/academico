@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calculadora 20 operadores"/>
+        <attribute name="authors" value="VICTORDANIELJESUSDES"/>
+        <attribute name="about" value=""/>
+    </attributes>
+
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+
+            <declare name="operacoes" type="String" array="False" size=""/>
+            <declare name="figura" type="String" array="False" size=""/>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <declare name="peso, altura, raio, base, lado" type="Real" array="False" size=""/>
+
+            <output expression="&quot;Escolha uma das 20 operacoes:&quot;" newline="True"/>
+            <output expression="&quot;+, -, *, /, %, ^, &gt;, &lt;, &gt;=, &lt;=, ==, !=, media, max, min, dist, somaquad, mediaquad, imc, area&quot;" newline="True"/>
+
+            <input variable="operacoes"/>
+
+            <if expression="operacoes == &quot;+&quot;">
+                <then>
+                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                    <input variable="b"/>
+                    <assign variable="c" expression="a+b"/>
+                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                </then>
+                <else>
+                    <if expression="operacoes == &quot;-&quot;">
+                        <then>
+                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                            <input variable="a"/>
+                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                            <input variable="b"/>
+                            <assign variable="c" expression="a-b"/>
+                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="operacoes == &quot;*&quot;">
+                                <then>
+                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                    <input variable="a"/>
+                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                    <input variable="b"/>
+                                    <assign variable="c" expression="a*b"/>
+                                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="operacoes == &quot;/&quot;">
+                                        <then>
+                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                            <input variable="a"/>
+                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                            <input variable="b"/>
+                                            <if expression="b != 0">
+                                                <then>
+                                                    <assign variable="c" expression="a/b"/>
+                                                    <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Erro: divisao por zero.&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <if expression="operacoes == &quot;%&quot;">
+                                                <then>
+                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                    <input variable="a"/>
+                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                    <input variable="b"/>
+                                                    <if expression="b != 0">
+                                                        <then>
+                                                            <assign variable="c" expression="a % b"/>
+                                                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;Erro: modulo por zero.&quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <if expression="operacoes == &quot;^&quot;">
+                                                        <then>
+                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                            <input variable="a"/>
+                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                            <input variable="b"/>
+                                                            <assign variable="c" expression="a^b"/>
+                                                            <output expression="&quot;Resultado: &quot; &amp; c" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="operacoes == &quot;&gt;&quot;">
+                                                                <then>
+                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                    <input variable="a"/>
+                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                    <input variable="b"/>
+                                                                    <if expression="a &gt; b">
+                                                                        <then>
+                                                                            <output expression="&quot;Resultado: a e maior&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <output expression="&quot;Resultado: b e maior ou igual&quot;" newline="True"/>
+                                                                        </else>
+                                                                    </if>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="operacoes == &quot;&lt;&quot;">
+                                                                        <then>
+                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                            <input variable="a"/>
+                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                            <input variable="b"/>
+                                                                            <if expression="a &lt; b">
+                                                                                <then>
+                                                                                    <output expression="&quot;Resultado: a e menor&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <output expression="&quot;Resultado: b e menor ou igual&quot;" newline="True"/>
+                                                                                </else>
+                                                                            </if>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="operacoes == &quot;&gt;=&quot;">
+                                                                                <then>
+                                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                    <input variable="a"/>
+                                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                    <input variable="b"/>
+                                                                                    <if expression="a &gt;= b">
+                                                                                        <then>
+                                                                                            <output expression="&quot;Resultado: a e maior ou igual a b&quot;" newline="True"/>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <output expression="&quot;Resultado: a e menor que b&quot;" newline="True"/>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="operacoes == &quot;&lt;=&quot;">
+                                                                                        <then>
+                                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                            <input variable="a"/>
+                                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                            <input variable="b"/>
+                                                                                            <if expression="a &lt;= b">
+                                                                                                <then>
+                                                                                                    <output expression="&quot;Resultado: a e menor ou igual a b&quot;" newline="True"/>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <output expression="&quot;Resultado: a e maior que b&quot;" newline="True"/>
+                                                                                                </else>
+                                                                                            </if>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <if expression="operacoes == &quot;==&quot;">
+                                                                                                <then>
+                                                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                    <input variable="a"/>
+                                                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                    <input variable="b"/>
+                                                                                                    <if expression="a == b">
+                                                                                                        <then>
+                                                                                                            <output expression="&quot;Resultado: a e igual a b&quot;" newline="True"/>
+                                                                                                        </then>
+                                                                                                        <else>
+                                                                                                            <output expression="&quot;Resultado: a e diferente de b&quot;" newline="True"/>
+                                                                                                        </else>
+                                                                                                    </if>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <if expression="operacoes == &quot;!=&quot;">
+                                                                                                        <then>
+                                                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                            <input variable="a"/>
+                                                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                            <input variable="b"/>
+                                                                                                            <if expression="a != b">
+                                                                                                                <then>
+                                                                                                                    <output expression="&quot;Resultado: a e diferente de b&quot;" newline="True"/>
+                                                                                                                </then>
+                                                                                                                <else>
+                                                                                                                    <output expression="&quot;Resultado: a e igual a b&quot;" newline="True"/>
+                                                                                                                </else>
+                                                                                                            </if>
+                                                                                                        </then>
+                                                                                                        <else>
+
+                                                                                                            <if expression="operacoes == &quot;media&quot;">
+                                                                                                                <then>
+                                                                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                    <input variable="a"/>
+                                                                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                    <input variable="b"/>
+                                                                                                                    <assign variable="c" expression="(a+b)/2"/>
+                                                                                                                    <output expression="&quot;Media: &quot; &amp; c" newline="True"/>
+                                                                                                                </then>
+                                                                                                                <else>
+
+                                                                                                                    <if expression="operacoes == &quot;max&quot;">
+                                                                                                                        <then>
+                                                                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                            <input variable="a"/>
+                                                                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                            <input variable="b"/>
+                                                                                                                            <if expression="a &gt; b">
+                                                                                                                                <then>
+                                                                                                                                    <assign variable="c" expression="a"/>
+                                                                                                                                </then>
+                                                                                                                                <else>
+                                                                                                                                    <assign variable="c" expression="b"/>
+                                                                                                                                </else>
+                                                                                                                            </if>
+                                                                                                                            <output expression="&quot;Maior valor: &quot; &amp; c" newline="True"/>
+                                                                                                                        </then>
+                                                                                                                        <else>
+
+                                                                                                                            <if expression="operacoes == &quot;min&quot;">
+                                                                                                                                <then>
+                                                                                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                                    <input variable="a"/>
+                                                                                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                                    <input variable="b"/>
+                                                                                                                                    <if expression="a &lt; b">
+                                                                                                                                        <then>
+                                                                                                                                            <assign variable="c" expression="a"/>
+                                                                                                                                        </then>
+                                                                                                                                        <else>
+                                                                                                                                            <assign variable="c" expression="b"/>
+                                                                                                                                        </else>
+                                                                                                                                    </if>
+                                                                                                                                    <output expression="&quot;Menor valor: &quot; &amp; c" newline="True"/>
+                                                                                                                                </then>
+                                                                                                                                <else>
+
+                                                                                                                                    <if expression="operacoes == &quot;dist&quot;">
+                                                                                                                                        <then>
+                                                                                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                                            <input variable="a"/>
+                                                                                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                                            <input variable="b"/>
+                                                                                                                                            <if expression="a &gt;= b">
+                                                                                                                                                <then>
+                                                                                                                                                    <assign variable="c" expression="a-b"/>
+                                                                                                                                                </then>
+                                                                                                                                                <else>
+                                                                                                                                                    <assign variable="c" expression="b-a"/>
+                                                                                                                                                </else>
+                                                                                                                                            </if>
+                                                                                                                                            <output expression="&quot;Distancia absoluta: &quot; &amp; c" newline="True"/>
+                                                                                                                                        </then>
+                                                                                                                                        <else>
+
+                                                                                                                                            <if expression="operacoes == &quot;somaquad&quot;">
+                                                                                                                                                <then>
+                                                                                                                                                    <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                                                    <input variable="a"/>
+                                                                                                                                                    <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                                                    <input variable="b"/>
+                                                                                                                                                    <assign variable="c" expression="a*a+b*b"/>
+                                                                                                                                                    <output expression="&quot;Soma dos quadrados: &quot; &amp; c" newline="True"/>
+                                                                                                                                                </then>
+                                                                                                                                                <else>
+
+                                                                                                                                                    <if expression="operacoes == &quot;mediaquad&quot;">
+                                                                                                                                                        <then>
+                                                                                                                                                            <output expression="&quot;Digite a:&quot;" newline="True"/>
+                                                                                                                                                            <input variable="a"/>
+                                                                                                                                                            <output expression="&quot;Digite b:&quot;" newline="True"/>
+                                                                                                                                                            <input variable="b"/>
+                                                                                                                                                            <assign variable="c" expression="(a*a+b*b)/2"/>
+                                                                                                                                                            <output expression="&quot;Media dos quadrados: &quot; &amp; c" newline="True"/>
+                                                                                                                                                        </then>
+                                                                                                                                                        <else>
+
+                                                                                                                                                            <if expression="operacoes == &quot;imc&quot;">
+                                                                                                                                                                <then>
+                                                                                                                                                                    <output expression="&quot;Digite o peso em kg:&quot;" newline="True"/>
+                                                                                                                                                                    <input variable="peso"/>
+                                                                                                                                                                    <output expression="&quot;Digite a altura em metros:&quot;" newline="True"/>
+                                                                                                                                                                    <input variable="altura"/>
+
+                                                                                                                                                                    <if expression="altura &gt; 0">
+                                                                                                                                                                        <then>
+                                                                                                                                                                            <assign variable="c" expression="peso/(altura*altura)"/>
+                                                                                                                                                                            <output expression="&quot;IMC: &quot; &amp; c" newline="True"/>
+
+                                                                                                                                                                            <if expression="c &lt; 18.5">
+                                                                                                                                                                                <then>
+                                                                                                                                                                                    <output expression="&quot;Classificacao: abaixo do peso&quot;" newline="True"/>
+                                                                                                                                                                                </then>
+                                                                                                                                                                                <else>
+                                                                                                                                                                                    <if expression="c &lt; 25">
+                                                                                                                                                                                        <then>
+                                                                                                                                                                                            <output expression="&quot;Classificacao: peso normal&quot;" newline="True"/>
+                                                                                                                                                                                        </then>
+                                                                                                                                                                                        <else>
+                                                                                                                                                                                            <if expression="c &lt; 30">
+                                                                                                                                                                                                <then>
+                                                                                                                                                                                                    <output expression="&quot;Classificacao: sobrepeso&quot;" newline="True"/>
+                                                                                                                                                                                                </then>
+                                                                                                                                                                                                <else>
+                                                                                                                                                                                                    <output expression="&quot;Classificacao: obesidade&quot;" newline="True"/>
+                                                                                                                                                                                                </else>
+                                                                                                                                                                                            </if>
+                                                                                                                                                                                        </else>
+                                                                                                                                                                                    </if>
+                                                                                                                                                                                </else>
+                                                                                                                                                                            </if>
+                                                                                                                                                                        </then>
+                                                                                                                                                                        <else>
+                                                                                                                                                                            <output expression="&quot;Erro: altura invalida.&quot;" newline="True"/>
+                                                                                                                                                                        </else>
+                                                                                                                                                                    </if>
+                                                                                                                                                                </then>
+                                                                                                                                                                <else>
+
+                                                                                                                                                                    <if expression="operacoes == &quot;area&quot;">
+                                                                                                                                                                        <then>
+                                                                                                                                                                            <output expression="&quot;Escolha a figura:&quot;" newline="True"/>
+                                                                                                                                                                            <output expression="&quot;circulo, quadrado, retangulo ou triangulo&quot;" newline="True"/>
+                                                                                                                                                                            <input variable="figura"/>
+
+                                                                                                                                                                            <if expression="figura == &quot;circulo&quot;">
+                                                                                                                                                                                <then>
+                                                                                                                                                                                    <output expression="&quot;Digite o raio:&quot;" newline="True"/>
+                                                                                                                                                                                    <input variable="raio"/>
+                                                                                                                                                                                    <assign variable="c" expression="3.14159*raio*raio"/>
+                                                                                                                                                                                    <output expression="&quot;Area do circulo: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                                </then>
+                                                                                                                                                                                <else>
+                                                                                                                                                                                    <if expression="figura == &quot;quadrado&quot;">
+                                                                                                                                                                                        <then>
+                                                                                                                                                                                            <output expression="&quot;Digite o lado:&quot;" newline="True"/>
+                                                                                                                                                                                            <input variable="lado"/>
+                                                                                                                                                                                            <assign variable="c" expression="lado*lado"/>
+                                                                                                                                                                                            <output expression="&quot;Area do quadrado: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                                        </then>
+                                                                                                                                                                                        <else>
+                                                                                                                                                                                            <if expression="figura == &quot;retangulo&quot;">
+                                                                                                                                                                                                <then>
+                                                                                                                                                                                                    <output expression="&quot;Digite a base:&quot;" newline="True"/>
+                                                                                                                                                                                                    <input variable="base"/>
+                                                                                                                                                                                                    <output expression="&quot;Digite a altura:&quot;" newline="True"/>
+                                                                                                                                                                                                    <input variable="altura"/>
+                                                                                                                                                                                                    <assign variable="c" expression="base*altura"/>
+                                                                                                                                                                                                    <output expression="&quot;Area do retangulo: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                                                </then>
+                                                                                                                                                                                                <else>
+                                                                                                                                                                                                    <if expression="figura == &quot;triangulo&quot;">
+                                                                                                                                                                                                        <then>
+                                                                                                                                                                                                            <output expression="&quot;Digite a base:&quot;" newline="True"/>
+                                                                                                                                                                                                            <input variable="base"/>
+                                                                                                                                                                                                            <output expression="&quot;Digite a altura:&quot;" newline="True"/>
+                                                                                                                                                                                                            <input variable="altura"/>
+                                                                                                                                                                                                            <assign variable="c" expression="(base*altura)/2"/>
+                                                                                                                                                                                                            <output expression="&quot;Area do triangulo: &quot; &amp; c" newline="True"/>
+                                                                                                                                                                                                        </then>
+                                                                                                                                                                                                        <else>
+                                                                                                                                                                                                            <output expression="&quot;Figura invalida.&quot;" newline="True"/>
+                                                                                                                                                                                                        </else>
+                                                                                                                                                                                                    </if>
+                                                                                                                                                                                                </else>
+                                                                                                                                                                                            </if>
+                                                                                                                                                                                        </else>
+                                                                                                                                                                                    </if>
+                                                                                                                                                                                </else>
+                                                                                                                                                                            </if>
+                                                                                                                                                                        </then>
+                                                                                                                                                                        <else>
+                                                                                                                                                                            <output expression="&quot;Operacao invalida.&quot;" newline="True"/>
+                                                                                                                                                                        </else>
+                                                                                                                                                                    </if>
+
+                                                                                                                                                                </else>
+                                                                                                                                                            </if>
+
+                                                                                                                                                        </else>
+                                                                                                                                                    </if>
+
+                                                                                                                                                </else>
+                                                                                                                                            </if>
+
+                                                                                                                                        </else>
+                                                                                                                                    </if>
+
+                                                                                                                                </else>
+                                                                                                                            </if>
+
+                                                                                                                        </else>
+                                                                                                                    </if>
+
+                                                                                                                </else>
+                                                                                                            </if>
+
+                                                                                                        </else>
+                                                                                                    </if>
+
+                                                                                                </else>
+                                                                                            </if>
+
+                                                                                        </else>
+                                                                                    </if>
+
+                                                                                </else>
+                                                                            </if>
+
+                                                                        </else>
+                                                                    </if>
+
+                                                                </else>
+                                                            </if>
+
+                                                        </else>
+                                                    </if>
+
+                                                </else>
+                                            </if>
+
+                                        </else>
+                                    </if>
+
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+
+        </body>
+    </function>
+</flowgorithm>
