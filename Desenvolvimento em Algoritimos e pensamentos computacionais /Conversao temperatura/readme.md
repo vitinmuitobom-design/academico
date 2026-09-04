@@ -34,7 +34,6 @@
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
 
 
-  <h5>Conclusao</h5>
+  <h2>Conclusao</h2>
 
-  <p>
-Este projeto foi uma forma de praticar meus conhecimentos em C e entender melhor como funciona a linguagem. Ainda tenho algumas dificuldades com a sintaxe, mas estou evoluindo aos poucos e pretendo continuar melhorando meus códigos.</p>
+  <p> Este projeto foi uma forma de praticar meus conhecimentos em C e entender melhor como funciona a linguagem. Ainda tenho algumas dificuldades com a sintaxe, mas estou evoluindo aos poucos e pretendo continuar melhorando meus códigos.</p>
