@@ -7,3 +7,15 @@
 
 
 <h2> Obejtivo</h2>
+
+
+<h3>TECNOLOGIA USADA</h3>
+
+
+  <img 
+    align="left"
+    alt="C"
+    title="C"
+    width="30"
+    style="padding-right: 10px;"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
