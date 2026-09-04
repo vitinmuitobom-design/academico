@@ -9,7 +9,6 @@
 <h2> OBEJTIVOS</h2>
 
 <p>O objetivo dessa atividade é transformar o diagrama desenvolvido no Flowgorithm em um programa funcional utilizando a linguagem C.
-
 Além disso, a atividade tem como objetivo praticar:
 
 - Variáveis;
@@ -24,9 +23,7 @@ Além disso, a atividade tem como objetivo praticar:
 <h3>Aprendizado</h3>
 
 <p>
-Durante a atividade, pude praticar a passagem de um algoritmo desenvolvido no Flowgorithm para a linguagem C.
-
-Ainda estou aprendendo a sintaxe da linguagem e cometendo alguns erros, mas a lógica de programação que aprendi anteriormente está ajudando bastante no desenvolvimento da atividade.</p>
+Durante a atividade, pude praticar a passagem de um algoritmo desenvolvido no Flowgorithm para a linguagem C. Ainda estou aprendendo a sintaxe da linguagem e cometendo alguns erros, mas a lógica de programação que aprendi anteriormente está ajudando bastante no desenvolvimento da atividade.</p>
 
 
 <h4>TECLONOGIA USADA</h4>
