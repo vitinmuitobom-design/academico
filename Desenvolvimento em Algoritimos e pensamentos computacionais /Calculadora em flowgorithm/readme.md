@@ -2,11 +2,13 @@
 
 [Calculadora em Flowgorithm](calculadora.fprg)
 
-<p>Calculadora desenvolvida em Flowgorithm como projeto de prática de lógica de programação. O programa conta com 20 operações matemáticas diferentes, utilizando estruturas condicionais, variáveis, operadores e entrada de dados.</p>
+<subtitle> Calculadora em Flowgorithm </subtitle>
+
+<p>Calculadora desenvolvida no Flowgorithm como uma atividade prática de lógica de programação. O projeto possui 20 operações matemáticas diferentes, utilizando variáveis, operadores, estruturas condicionais e entrada de dados do usuário.</p>
 
 <h2> OBEJTIVO</h2>
 
-<p> </p>
+<p>O objetivo da atividade foi desenvolver uma calculadora capaz de realizar 20 operações matemáticas, colocando em prática os conhecimentos de lógica de programação. A atividade também teve como finalidade ajudar na compreensão de conceitos que serão utilizados posteriormente na linguagem C.</p>
 
 
 
