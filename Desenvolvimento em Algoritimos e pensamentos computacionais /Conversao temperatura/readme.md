@@ -10,8 +10,19 @@
 
 <p>O objetivo deste projeto é desenvolver um programa em linguagem C capaz de realizar a conversão de temperaturas entre diferentes escalas, utilizando os conceitos básicos de programação aprendidos durante os estudos.</p>
 
+<h3> O que aprendi </h3>
 
-<h3>TECNOLOGIA USADA</h3>
+<p>Durante o desenvolvimento deste projeto, pratiquei conceitos importantes da linguagem C, como:
+
+- Variáveis
+- Entrada e saída de dados
+- `printf` e `scanf`
+- Operadores matemáticos
+- Estruturas condicionais
+- Organização básica de um programa em C
+</p>
+
+<h4>TECNOLOGIA USADA</h4>
 
 
   <img 
