@@ -21,8 +21,15 @@ Além disso, a atividade tem como objetivo praticar:
 - Lógica de programação;
 - Sintaxe da linguagem C.</p>
 
+<h3>Aprendizado</h3>
 
-<h3>TECLONOGIA USADA</h3>
+<p>
+Durante a atividade, pude praticar a passagem de um algoritmo desenvolvido no Flowgorithm para a linguagem C.
+
+Ainda estou aprendendo a sintaxe da linguagem e cometendo alguns erros, mas a lógica de programação que aprendi anteriormente está ajudando bastante no desenvolvimento da atividade.</p>
+
+
+<h4>TECLONOGIA USADA</h4>
 
   
   <img 
