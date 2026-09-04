@@ -1,1 +1,1 @@
-# Desenvolvimento-em-Algoritimos-e-Pensamentos-computacionais-
+# Projetos e ativdades academicas
