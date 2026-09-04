@@ -6,8 +6,10 @@
 
 <h2> OBEJTIVO</h2>
 
+<p> </p>
+
 
 
 <h3>TECNOLOGIA USADA</h3>
 
-<p>FLOWGORITHM</p>
+<p> Na aula a professora mandou fazer um diagrama no flowgorithm , para nos alunos entendemos a logica em C</p>
