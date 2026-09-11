@@ -19,12 +19,29 @@ Atualmente, o repositório reúne atividades desenvolvidas em **linguagem C** na
 ### Algoritmos e Pensamento Computacional
 
 Atividades desenvolvidas durante a disciplina:
-- 🧮 [Calculadora em C]
-- 🔢 [Calculadora em Flowgorithm](calculadora.fprg)
-- 🌡️ [Conversao em C](conversao.c)
-- [Exercicio senha](Exercicio_senha)
-- [Monitor de temperatura](Monitor_temperatura)
-- [Tabuada](tabuada)
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/calculadora-c" target="_blank">
+    Calculadora em C
+</a>
+
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/calculadora-flowgorithm" target="_blank">
+    Calculadora em Flowgorithm
+</a>
+
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/conversao-c" target="_blank">
+    Conversão em C
+</a>
+
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/exercicio-senha" target="_blank">
+    Exercício senha
+</a>
+
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/monitor-temperatura" target="_blank">
+    Monitor de temperatura
+</a>
+
+<a href="https://github.com/vitinmuitobom-design/academico/tree/main/algoritmos/tabuada" target="_blank">
+    Tabuada
+</a>
 
 ### Desenvolvimento Front-End Para Web
 
