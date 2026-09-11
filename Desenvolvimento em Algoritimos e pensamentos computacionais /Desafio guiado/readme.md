@@ -10,3 +10,5 @@
 <li> Tratar entrada invalidas </li>
 <li> Calcular media, maior, e menor temperatura </li>
 <li> Contar quantas temperaturas ficaram acima do limite</li>
+<li> Encerrar automaticamente ao identificar 3 temperaturas consecutivas acima do limite</li>
+<li> Exibir um relatorio final</li>
