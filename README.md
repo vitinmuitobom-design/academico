@@ -22,6 +22,9 @@ Atividades desenvolvidas durante a disciplina:
 - 🧮 [Calculadora em C](calculadora.c)
 - 🔢 [Calculadora em Flowgorithm](calculadora.fprg)
 - 🌡️ [Conversao em C](conversao.c)
+- [Exercicio senha](Exercicio_senha)
+- [Monitor de temperatura](Monitor_temperatura)
+- [Tabuada](tabuada)
 
 ### Desenvolvimento Front-End Para Web
 
