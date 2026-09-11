@@ -19,7 +19,7 @@ Atualmente, o repositório reúne atividades desenvolvidas em **linguagem C** na
 ### Algoritmos e Pensamento Computacional
 
 Atividades desenvolvidas durante a disciplina:
-- 🧮 [Calculadora em C](calculadora.c)
+- 🧮 [Calculadora em C]([calculadora.c](https://github.com/vitinmuitobom-design/academico/tree/main/Desenvolvimento%20em%20Algoritimos%20e%20pensamentos%20computacionais%20/Calculadora%20em%20C))
 - 🔢 [Calculadora em Flowgorithm](calculadora.fprg)
 - 🌡️ [Conversao em C](conversao.c)
 - [Exercicio senha](Exercicio_senha)
