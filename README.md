@@ -24,3 +24,8 @@ Atividades desenvolvidas durante a disciplina:
 
   Ainda sem atividades publicadas.
 ---
+
+## Modelagem de banco de dados
+
+  Ainda sem atividades publicadas
+---
