@@ -1,9 +1,9 @@
 # Indeficaçao
 
-# Aluno <Li>Victor Daniel Jesus de Sousa</Li>
-<Li></Li>
-<Li></Li>
-<Li></Li>
+<Li>Aluno: Victor Daniel Jesus de Sousa</Li>
+<Li>Disciplina: Desenvolvimento em Algoritimos e pensamentos computacionais</Li>
+<Li>Professor(a): Karla Sartin</Li>
+<Li>Titulo do projeto:  Sistema de Monitoramento de Temperatura </Li>
 
 
 
