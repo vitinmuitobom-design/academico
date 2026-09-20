@@ -44,7 +44,17 @@ A combinação das duas estruturas permite realizar tanto a validação inicial 
 
 <p>Primeiramente, o usuário informa um limite de temperatura entre 0 °C e 100 °C. O programa valida esse valor e, caso seja inválido, solicita uma nova entrada.
 
-Depois disso, o programa começa a receber as leituras de temperatura. Os valores devem estar entre 0 °C e 100 °C. O valor -1 pode ser utilizado para encerrar o monitoramento manualmente.
+Depois disso, o programa começa a receber as leituras de temperatura. Os valores devem estar entre 0 °C e 100 °C. O valor -1 pode ser utilizado para encerrar o monitoramento manualmente.</p>
+
+# Como executar
+
+<p> Para compilar o programa utilizando o GCC, utilize:</p>
+
+  gcc monitoramento.c -o monitoramento
+
+
+
+
 
 Quando uma temperatura inválida é informada, o programa exibe uma mensagem de erro e solicita uma nova temperatura, sem considerar o valor inválido nos cálculos.
 
