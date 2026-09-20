@@ -61,6 +61,7 @@ Durante o monitoramento, o programa também armazena informações para calcular
 
 # Como executar
 
-<p> Para compilar o programa utilizando o GCC, utilize:</p>
+Para compilar o programa utilizando o GCC, utilize:
 
-  gcc monitoramento.c -o monitoramento
+```bash
+gcc monitoramento.c -o monitoramento
