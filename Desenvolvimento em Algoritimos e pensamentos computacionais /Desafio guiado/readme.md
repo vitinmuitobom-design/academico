@@ -57,5 +57,4 @@ Caso sejam registradas três temperaturas consecutivas acima do limite, o progra
 Durante o monitoramento, o programa também armazena informações para calcular a média, identificar a maior e a menor temperatura, contar quantas temperaturas ficaram acima do limite e calcular o percentual dessas temperaturas.
 
  </p>
-# <h1> O que o programa deve fazer?</h1><li> Encerrar automaticamente ao identificar 3 temperaturas consecutivas acima do limite</li>
-<li> Exibir um relatorio final</li>
+
